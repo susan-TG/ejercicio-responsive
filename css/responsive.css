@@ -1,0 +1,74 @@
+
+.one {
+	background-color: #FFEA00;
+}
+.two {
+	background-color: #FFD600;
+}
+.three {
+	background-color: #FFC400;
+}
+.four {
+	background-color: #FFAB00;
+}
+.five {
+	background-color: #FF9100;
+}
+.six {
+	background-color: #FF6D00;
+}
+/*----------------------------*/
+/*RESPONSIVE MIN*/
+@media (min-width: 481px) {
+
+	.box {
+		width: 16%;
+		height: 240px;
+		display: inline-block;
+		text-align: center;
+	}
+	a {
+		font-size: 2em;
+	}
+	li {
+		padding-top: 100px;
+	}
+}
+
+/*-----------------------------*/
+/*RESPONSIVE MAX*/ 
+@media (max-width: 480px) {
+	.box {
+		width: 100%;
+		display: block;
+	}
+	a {
+		font-size: 1em;
+		height: 10px;
+	}
+	ul {
+		padding-left: 0; 
+	}
+	i, li {
+		display: block;
+	}
+	
+}
+/*-----------------------------*/
+/*ESTILOS CSS AFUERA*/ 
+header {
+	width: 100%;
+	background-color: #FFC424;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #FCF1B2;
+}
+body {
+	background-color: #FCF1B2;
+	font-family: 'Kaushan Script', cursive;
+}
+a {
+	color: #FCF1B2;
+	text-decoration:none;
+}
